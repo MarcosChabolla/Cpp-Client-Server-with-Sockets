@@ -1,4 +1,4 @@
-# Cpp-Server/Client-with-Sockets
+# Cpp-Server-Client-with-Sockets
 This project implements a client/server application using sockets. A daemon (cixd) listens on a socket for client connection requests. Each connection will cause the server to fork a child process to serve the client. The daemon runs in an infinite loop listening. The server exits when the client disconnects. A client (cix) connects to a server and can send files, receive files, and get a summary listing of all files present.
 
 A socket is a two-way means of communication between processes, not necessarily running on the same host. An IPv4 host is known by a 4-octet sequence such as 128.114.108.152, and a port is an unsigned 16-bit number (0 to 65535). Communication will be done via TCP/IP over IPv4 sockets.
